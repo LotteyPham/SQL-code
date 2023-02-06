@@ -1,4 +1,4 @@
-<h1>Bank Data </h1>
+<h1>Bank Data Exploration</h1>
 The following case study questions include some general data exploration analysis for the nodes and transactions
 <h2>A. Customer Nodes Exploration</h2>
 1.	How many unique nodes are there on the Data Bank system?<br />
