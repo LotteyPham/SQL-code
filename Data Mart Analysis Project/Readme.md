@@ -32,7 +32,7 @@ In a single query, perform the following operations and generate a new table in 
   * Add a ```calendar_year``` column as the 4th column containing either 2018, 2019 or 2020 values
   * Add a new column called ```age_band``` after the original ```segment``` column using the following mapping on the number inside the ```segment``` value
 
-| egment | age_band     |
+| segment | age_band     |
 |--------|--------------|
 | 1      | Young Adults |
 | 2      | Middle Aged  |
