@@ -51,7 +51,7 @@ Result: (12 first rows)
 |11         |NULL		|
 |12         |NULL		|
 
-The range of week numbers missing are 1~12 and 37~52
+The range of week numbers missing are 1-12 and 37-52
 
 3. How many total transactions were there for each year in the dataset?
 
