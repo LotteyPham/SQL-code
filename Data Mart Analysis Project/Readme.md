@@ -3,7 +3,7 @@
 ## 📕 Table of Contents
 * [Bussiness Task](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#%EF%B8%8F-bussiness-task)
 * [Entity Relationship Diagram](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#-entity-relationship-diagram)
-* [Case Study Questions - Solutions](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#-case-study-questions---solutions)
+* [Case Study Questions - Solutions](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#-case-study-questions)
 
 ---
 ## 🛠️ Bussiness Task
