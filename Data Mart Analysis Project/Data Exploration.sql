@@ -1,9 +1,9 @@
--- What day of the week is used for each week_date value?
+--1. What day of the week is used for each week_date value?
 SELECT
 	DISTINCT DATENAME(WEEKDAY,week_date) AS day_of_week
 FROM clean_weekly_sales
 
---What range of week numbers are missing from the dataset?
+--2. What range of week numbers are missing from the dataset?
 WITH Row_nums AS ( -- create a temporary table containing the number 1~52
 SELECT 1   AS Row_num
 UNION ALL
@@ -19,32 +19,32 @@ LEFT JOIN clean_weekly_sales ON Row_num = week_number
 WHERE week_number IS NULL
 ORDER BY Row_num
 
---How many total transactions were there for each year in the dataset?
+--3. How many total transactions were there for each year in the dataset?
 SELECT
 	calendar_year,
-	FORMAT(SUM(transactions),'N0') AS total_transactions
+	SUM(transactions) AS total_transactions
 FROM clean_weekly_sales
 GROUP BY calendar_year
 ORDER BY calendar_year
 
---What is the total sales for each region for each month?
+-- 4.What is the total sales for each region for each month?
 SELECT
 	region,
 	month_number,
-	FORMAT(SUM(sales),'N0') AS total_sales
+	SUM(sales) AS total_sales
 FROM clean_weekly_sales
 GROUP BY region, month_number
 ORDER BY region, month_number
 
---What is the total count of transactions for each platform?
+-- 5.What is the total count of transactions for each platform?
 
 SELECT 
 	platform,
-	FORMAT(SUM(transactions),'N0') AS count_of_transactions
+	SUM(transactions) AS count_of_transactions
 FROM clean_weekly_sales
 GROUP BY platform
 
--- What is the percentage of sales for Retail vs Shopify for each month?
+--6. What is the percentage of sales for Retail vs Shopify for each month?
 WITH sales_by_platform AS (
 SELECT
 	calendar_year,
@@ -64,7 +64,7 @@ FROM sales_by_platform
 GROUP BY calendar_year, month_number
 ORDER BY calendar_year, month_number
 
---What is the percentage of sales by demographic for each year in the dataset?
+--7. What is the percentage of sales by demographic for each year in the dataset?
 WITH sales_by_demographic AS (
 SELECT
 	calendar_year,
@@ -82,7 +82,7 @@ FROM sales_by_demographic
 GROUP BY calendar_year
 ORDER BY calendar_year
 
---Which age_band and demographic values contribute the most to Retail sales?
+--8. Which age_band and demographic values contribute the most to Retail sales?
 SELECT
 	age_band,
 	demographic,
@@ -93,7 +93,7 @@ WHERE platform = 'Retail'
 GROUP BY age_band, demographic
 ORDER BY 4 DESC
 
---Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? 
+--9. Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? 
 --If not - how would you calculate it instead?
 SELECT 
   calendar_year,
