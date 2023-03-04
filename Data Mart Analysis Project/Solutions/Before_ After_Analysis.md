@@ -6,7 +6,7 @@ We would include all week_date values for 2020-06-15 as the start of the period 
 
 Using this analysis approach - answer the following questions:
 
-1. What is the total sales for the 4 weeks before and after 2020-06-15? What is the growth or reduction rate in actual values and percentage of sales?
+### 1. What is the total sales for the 4 weeks before and after 2020-06-15? What is the growth or reduction rate in actual values and percentage of sales?
 
 * First, we find the week_number of '2020-06-15' and declare @week_number_event
 * Then, Find the total sales of 4 weeks before and after @week_number_event
@@ -38,7 +38,7 @@ Result:
 |--------------	|-----------------|-----------------------|----------------|
 |2345878357		|2318994169		|-26884188			|-1.15|
 
-2. What about the entire 12 weeks before and after?
+### 2. What about the entire 12 weeks before and after?
 
 * Do the same to find the week_number of '2020-06-15
 * Then, Find the total sales of 12 weeks before and after @week_number_event
@@ -64,7 +64,7 @@ Result:
 |-----------------|-----------------|-----------------------|--------------|
 |7126273147		|6973947753		|-152325394			|-2.14|
 
-3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
+### 3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
 
 * 4 weeks before and after event
 
