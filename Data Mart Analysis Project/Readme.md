@@ -1,9 +1,9 @@
 # 🛒 Case Study - Data Mart
 
 ## 📕 Table of Contents
-* [Bussiness Task](## 🛠️ Bussiness Task)
-* [Entity Relationship Diagram](## 🔐 Entity Relationship Diagram)
-* [Case Study Questions - Solutions](## 🔐 Entity Relationship Diagram)
+* [Bussiness Task](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#%EF%B8%8F-bussiness-task)
+* [Entity Relationship Diagram](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#-entity-relationship-diagram)
+* [Case Study Questions - Solutions](https://github.com/LotteyPham/SQL-code/tree/main/Data%20Mart%20Analysis%20Project#-case-study-questions---solutions)
 
 ---
 ## 🛠️ Bussiness Task
@@ -21,9 +21,9 @@ The key business question to answer are the following:
 <img src="https://github.com/LotteyPham/SQL-code/blob/main/Data%20Mart%20Analysis%20Project/IMG_data_mart_ERD.png" align="center">
 
 ---
-## ❓ Case Study Questions - Solutions
+## ❓ Case Study Questions
 ### A. Data Cleansing Steps
-View my solution [HERE](--).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Data%20Mart%20Analysis%20Project/Solutions/Data%20Cleansing.md).
   
 In a single query, perform the following operations and generate a new table in the ```data_mart``` schema named ```clean_weekly_sales```:
   * Convert the ```week_date``` to a ```DATE``` format
@@ -50,7 +50,7 @@ In a single query, perform the following operations and generate a new table in 
 
 ---
 ### B. Data Exploration
-View my solution [HERE](--).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Data%20Mart%20Analysis%20Project/Solutions/Data%20Exploration.md).
   
 1. What day of the week is used for each ```week_date``` value?
 2. What range of week numbers are missing from the dataset?
@@ -64,7 +64,7 @@ View my solution [HERE](--).
 
 ---
 ### C. Before & After Analysis
-View my solution [HERE](--).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Data%20Mart%20Analysis%20Project/Solutions/Before_%20After_Analysis.md).
   
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
 Taking the week_date value of 2020-06-15 as the baseline week where the Data Mart sustainable packaging changes came into effect.
@@ -78,7 +78,7 @@ Using this analysis approach - answer the following questions:
 
 ---
 ### D. Bonus Question
-View my solution [HERE](--).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Data%20Mart%20Analysis%20Project/Solutions/Bonus_Question.md).
   
 Which areas of the business have the highest negative impact in sales metrics performance in 2020 for the 12 week before and after period?
   * ```region```
@@ -87,6 +87,3 @@ Which areas of the business have the highest negative impact in sales metrics pe
   * ```demographic```
   * ```customer_type```
 Do you have any further recommendations for Danny’s team at Data Mart or any interesting insights based off this analysis?
- 
-
-
