@@ -14,6 +14,7 @@
 | transactions     | No changes                                                                                                                                               |
 | sales            | ```CAST``` to ```bigint``` for further aggregations                                                                                                         |
 | avg_transaction* | Divide ```sales``` by ```transactions``` and round up to 2 decimal places                     
+
 Then save all into new table ```clean_weekly_sales```
 
 ```TSQL
@@ -43,4 +44,4 @@ SELECT
 INTO clean_weekly_sales
 FROM weekly_sales;
 ```
-
+Go to next step: **[Data Exploration](--)**
