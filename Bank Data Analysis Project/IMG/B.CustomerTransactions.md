@@ -142,7 +142,7 @@ Result: (Part of 1970 rows)
  * Create a CTE `current_balance` by using the calculation for the closing balance in the previous question.
  * Create a new CTE `next_balance` to calculate the closing balance next month: `next_month_balance`
  * The percentage increase of the closing balance = 100 * (next balance - closing balance) / closing balance.
- * Create a temporary table #variance to prevent the error "Warning: Null value is eliminated by an aggregate or other SET operation".
+ * Create a temporary table `#variance` to prevent the error `"Warning: Null value is eliminated by an aggregate or other SET operation"`.
  * Count the number of customers increasing their closing balance by more than 5%, then divide that by the total number of customers.
 
 
