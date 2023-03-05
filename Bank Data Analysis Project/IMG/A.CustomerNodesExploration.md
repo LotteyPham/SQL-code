@@ -68,7 +68,7 @@ Result:
 |Europe	|88|
 
 ---
-4. How many days on average are customers reallocated to a different node?
+### 4. How many days on average are customers reallocated to a different node?
  * Create CTE `first_start_date` to find MIN start_date of each customer in each node
  * Create CTE `reallocated` To calculate the difference in days between the first date in this node and the first date in next node
  * Take the average of those day differences 
