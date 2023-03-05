@@ -1,9 +1,9 @@
 # 🏦 Case Study - Data Bank
 
 ## 📕 Table of Contents
-* [Bussiness Task](##)
-* [Entity Relationship Diagram](##)
-* [Case Study Questions - Solutions](##)
+* [Bussiness Task](https://github.com/LotteyPham/SQL-code/tree/main/Bank%20Data%20Analysis%20Project#%EF%B8%8F-bussiness-task)
+* [Entity Relationship Diagram](https://github.com/LotteyPham/SQL-code/tree/main/Bank%20Data%20Analysis%20Project#-entity-relationship-diagram)
+* [Case Study Questions - Solutions](https://github.com/LotteyPham/SQL-code/tree/main/Bank%20Data%20Analysis%20Project#-case-study-questions)
 
 ---
 ## 🛠️ Bussiness Task
@@ -18,7 +18,7 @@ This case study is all about calculating metrics, growth and helping the busines
 ---
 ## 🔐 Entity Relationship Diagram
 <p align="center">
-<img src="##" align="center">
+<img src="https://github.com/LotteyPham/SQL-code/blob/main/Bank%20Data%20Analysis%20Project/IMG/case-study-4-erd.png" align="center">
 
 ### Table 1: Regions
 Just like popular cryptocurrency platforms - Data Bank is also run off a network of nodes where both money and data is stored across the globe. In a traditional banking sense - you can think of these nodes as bank branches or stores that exist around the world.
@@ -29,11 +29,13 @@ Customers are randomly distributed across the nodes according to their region - 
 This random distribution changes frequently to reduce the risk of hackers getting into Data Bank’s system and stealing customer’s money and data!
 
 ### Table 3: Customer Transactions
+
 This table stores all customer deposits, withdrawals and purchases made using their Data Bank debit card.
+
 ---
 ## ❓ Case Study Questions
 ### A. Customer Nodes Exploration
-View solution [HERE](##).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Bank%20Data%20Analysis%20Project/IMG/A.CustomerNodesExploration.md).
   
 1. How many unique nodes are there on the Data Bank system?
 2. What is the number of nodes per region?
@@ -43,7 +45,7 @@ View solution [HERE](##).
 
 ---
 ### B. Customer Transactions
-View solution [HERE](##).
+View solution [HERE](https://github.com/LotteyPham/SQL-code/blob/main/Bank%20Data%20Analysis%20Project/IMG/B.CustomerTransactions.md).
   
 1. What is the unique count and total amount for each transaction type?
 2. What is the average total historical deposit counts and amounts for all customers?
